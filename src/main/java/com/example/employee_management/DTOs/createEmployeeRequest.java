@@ -33,4 +33,8 @@ public class createEmployeeRequest {
     @NotNull(message = "Postion is required")
     @Size(min = 2, max = 50, message = "min is 2 characters and max is 50 characters")
     private String position;
+
+    @NotNull(message = "HERE")
+    private Long departmentId;
+
 }
